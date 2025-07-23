@@ -1,0 +1,143 @@
+/* Custom CSS for SmartDynamic pricing app */
+
+/* Main container */
+.reportview-container {
+    background-color: #f8f9fa;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #2E86C1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    border-bottom: 2px solid #2E86C1;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Cards */
+.stCard {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+/* Metrics */
+.stMetric {
+    background-color: #f1f8ff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border-left: 4px solid #2E86C1;
+}
+
+/* Positive/negative metrics */
+.positive {
+    color: #2ca02c !important;
+}
+
+.negative {
+    color: #d62728 !important;
+}
+
+/* Buttons */
+.stButton>button {
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #2E86C1;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.stButton>button:hover {
+    background-color: #1e6091;
+}
+
+/* Inputs */
+.stTextInput>div>div>input,
+.stNumberInput>div>div>input,
+.stSelectbox>div>div {
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #f1f8ff;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 4px 4px 0px 0px;
+    padding: 10px 20px;
+    background-color: #f1f8ff;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #2E86C1 !important;
+    color: white !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    font-weight: 600;
+    color: #2E86C1;
+}
+
+/* Data tables */
+.stDataFrame {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* Info box */
+.stInfo {
+    background-color: #e8f4fd;
+    border-left: 4px solid #2E86C1;
+}
+
+/* Warning/error */
+.stWarning {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+}
+
+.stError {
+    background-color: #f8d7da;
+    border-left: 4px solid #dc3545;
+}
+
+/* Success box */
+.stSuccess {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+}
+
+/* Custom section divider */
+.divider {
+    height: 3px;
+    background-image: linear-gradient(to right, transparent, #2E86C1, transparent);
+    margin: 1rem 0;
+}
+
+/* Charts container */
+.chart-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}

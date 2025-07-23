@@ -1,0 +1,21 @@
+customer_id,segment,price_sensitivity,purchase_frequency,avg_basket_size,preferred_category,loyalty_score
+C001,Premium,Low,High,250.50,Electronics,9.5
+C002,Premium,Low,Medium,320.75,Home,9.2
+C003,Value Seeker,High,High,120.25,Electronics,7.5
+C004,Occasional,Medium,Low,180.00,Clothing,5.2
+C005,Premium,Low,High,275.50,Home,9.8
+C006,Value Seeker,High,Medium,95.25,Clothing,6.8
+C007,Value Seeker,High,Low,88.50,Electronics,6.2
+C008,Occasional,Medium,Low,150.75,Home,5.5
+C009,Premium,Low,Medium,310.25,Electronics,9.1
+C010,Value Seeker,High,High,115.50,Clothing,8.0
+C011,Premium,Low,High,295.75,Home,9.4
+C012,Occasional,Medium,Medium,175.25,Electronics,6.7
+C013,Value Seeker,High,Medium,105.50,Home,7.2
+C014,Premium,Low,Medium,290.00,Clothing,8.9
+C015,Occasional,Medium,Low,145.25,Electronics,5.8
+C016,Value Seeker,High,High,118.75,Home,7.8
+C017,Premium,Low,High,305.50,Clothing,9.3
+C018,Occasional,Medium,Medium,165.25,Electronics,6.5
+C019,Value Seeker,High,Low,92.75,Home,6.0
+C020,Premium,Low,Medium,315.50,Clothing,9.0
