@@ -24,7 +24,7 @@ def run_app():
     
     # Run Streamlit app
     sys.argv = [
-        "streamlit", 
+        "streamlit",  
         "run", 
         app_path,
         "--server.port", os.getenv("STREAMLIT_PORT", "8501"),
