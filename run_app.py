@@ -35,4 +35,4 @@ def run_app():
     sys.exit(stcli.main())
 
 if __name__ == "__main__":
-    run_app()
+    run_app() 
